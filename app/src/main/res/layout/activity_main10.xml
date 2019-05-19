@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ea6ba2"
+    android:orientation="vertical"
+    tools:context="com.example.intanyoshanaoewen.brainiac.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/unnamed"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtTotalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Score : 0"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Lizard"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Egypt"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Umbilical Cord"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. William Shakespeare"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. England, Wales, Scotland, Nothern Ireland"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Oxygen and Glucose"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"
+        android:layout_gravity="center"
+    />
+
+     <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Singapore"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            android:fontFamily="monospace"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="8. Amazon"
+         android:textAlignment="center"
+         android:fontFamily="monospace"
+         android:textSize="19sp"
+         android:textColor="#ffffff"
+         android:layout_gravity="center"
+         />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#9cd2c1"
+        android:text="exit"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:onClick="clickExit"
+        />
+
+    </LinearLayout>
+</ScrollView>

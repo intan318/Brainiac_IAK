@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg14"
+    tools:context="com.example.intanyoshanaoewen.brainiac.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question #2"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_margin="6dp"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/unnamed"
+            android:layout_marginTop="2dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="190dp"
+        android:src="@drawable/pyramids"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In which country do the famous pyramids of Giza stand?"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/radioGroupAns1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtQuestion"
+            android:layout_centerHorizontal="true">
+
+            <RadioButton
+                android:id="@+id/rbtnSaudi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Saudi Arabia"
+                android:textSize="17sp"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/rbtnDubai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dubai"
+                android:textSize="17sp"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="5dp"/>
+
+            <RadioButton
+                android:id="@+id/rbtnEgypt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Egypt"
+                android:textSize="17sp"
+                android:textColor="#ffffff"/>
+
+            <RadioButton
+                android:id="@+id/rbtnQatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Qatar"
+                android:textSize="17sp"
+                android:textColor="#ffffff" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#9cd2c1"
+        android:text="submit"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:onClick="checkResult"
+        />
+
+    </LinearLayout>
+
+</ScrollView>
